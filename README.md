@@ -1,8 +1,8 @@
 # RustamRuzibaev_infra
 RustamRuzibaev Infra repository
-## Homework №5 packer-base
+## Homework №6 terraform-1
 
-- Был установлен packer
-- Проверена работа packer
-- С помощью packer был создан образ и проверена его работа
-- Написаны конфигурационные файлы для сборки образа
+- Был установлен terraform
+- Изучена работа terraform
+- С помощью terraform была создана виртуальная машина в облаке
+- Написаны конфигурационные файлы для создания виртуальной машины в облаке с помощью terraform
