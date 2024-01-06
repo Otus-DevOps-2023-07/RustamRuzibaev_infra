@@ -1,0 +1,8 @@
+cloud_id                 = "aaaaaaaaaaaaaaaaaaaa"
+folder_id                = "ssssssssssssssssssss"
+zone                     = "ru-central1-a"
+image_id                 = "dddddddddddddddddddddd"
+public_key_path          = "yc-user.pub"
+subnet_id                = "eeeeeeeeeeeeeeeeeeeeee"
+service_account_key_file = "key.json.example"
+private_key_path         = "yc-user"
