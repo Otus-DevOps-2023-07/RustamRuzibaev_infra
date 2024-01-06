@@ -4,7 +4,7 @@
             "type": "yandex",
             "service_account_key_file": "/home/ram/otus/repos/secret/packer-base/key.json",
             "folder_id": "b1gjifjhsf867vu0g4r2",
-            "image_name": "reddit-base-${formatdate("MM-DD-YYYY", timestamp())}",
+            "image_name": "reddit-app-{{timestamp}}",
             "image_family": "reddit-app",
             "ssh_username": "ubuntu",
             "use_ipv4_nat": "true",
