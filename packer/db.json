@@ -5,6 +5,7 @@
             "service_account_key_file": "{{user `service_account_key_file`}}",
             "folder_id": "b1gjifjhsf867vu0g4r2",
             "image_name": "reddit-db-{{timestamp}}",
+            "source_image_family": "{{user `source_image_family`}}",
             "image_family": "reddit-db",
             "ssh_username": "ubuntu",
             "use_ipv4_nat": "true",
@@ -16,14 +17,8 @@
     "provisioners": [
         {
             "type": "shell",
-            script = "./scripts/install_mongodb.sh",
+            "script" : "./scripts/install_mongodb.sh",
             "execute_command": "sudo {{.Path}}"
         }
     ]
-}
-
-        name            = "mongodb"
-        script          = "./scripts/install_mongodb.sh"
-        execute_command = "sudo {{.Path}}"
-    }
 }
