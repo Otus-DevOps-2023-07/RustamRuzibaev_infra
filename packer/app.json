@@ -2,7 +2,7 @@
     "builders": [
         {
             "type": "yandex",
-            "service_account_key_file": "/home/ram/otus/repos/secret/packer-base/key.json",
+            "service_account_key_file": "{{user `service_account_key_file`}}",
             "folder_id": "b1gjifjhsf867vu0g4r2",
             "image_name": "reddit-app-{{timestamp}}",
             "image_family": "reddit-app",

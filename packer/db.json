@@ -2,14 +2,14 @@
     "builders": [
         {
             "type": "yandex",
-            "service_account_key_file": "/home/ram/otus/repos/secret/packer-base/key.json",
+            "service_account_key_file": "{{user `service_account_key_file`}}",
             "folder_id": "b1gjifjhsf867vu0g4r2",
             "image_name": "reddit-db-{{timestamp}}",
             "image_family": "reddit-db",
             "ssh_username": "ubuntu",
             "use_ipv4_nat": "true",
             "zone": "ru-central1-a",
-            "subnet_id" = "e9bar76d8cs50h36fr8n",
+            "subnet_id" : "e9bar76d8cs50h36fr8n",
             "platform_id": "standard-v1"
         }
     ],
