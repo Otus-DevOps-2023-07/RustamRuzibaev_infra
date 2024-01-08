@@ -1,0 +1,8 @@
+#appserver ansible_host=158.160.35.181 ansible_user=ubuntu ansible_private_key=yc-user
+#dbserver ansible_host=51.250.71.21 ansible_user=ubuntu ansible_private_key=yc-user
+
+[app]
+appserver ansible_host=51.250.81.52
+
+[db]
+dbserver ansible_host=51.250.70.197

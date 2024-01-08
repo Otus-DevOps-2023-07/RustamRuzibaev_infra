@@ -1,8 +1,6 @@
 # RustamRuzibaev_infra
 RustamRuzibaev Infra repository
-## Homework №6 terraform-1
+## Homework №9 ansible-2
 
-- Был установлен terraform
-- Изучена работа terraform
-- С помощью terraform была создана виртуальная машина в облаке
-- Написаны конфигурационные файлы для создания виртуальной машины в облаке с помощью terraform
+- Научились создавать плейбуки разного вида: общие с limit и tags, плэйбуки с множественными plays, плэйбук из множества файлов.
+- Добавили provision через ansible в packer.
