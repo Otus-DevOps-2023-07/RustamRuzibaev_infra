@@ -2,7 +2,7 @@
     "builders": [
         {
             "type": "yandex",
-            "service_account_key_file": "{{user `service_account_key_file`}}",
+            "service_account_key_file": "key.json",
             "folder_id": "b1gjifjhsf867vu0g4r2",
             "image_name": "reddit-app-{{timestamp}}",
             "source_image_family": "{{user `source_image_family`}}",
@@ -17,7 +17,7 @@
     "provisioners": [
         {
             "type": "ansible",
-            "playbook_file": "../ansible/packer_app.yml"
+            "playbook_file": "ansible/packer_app.yml"
         }
     ]
 }
