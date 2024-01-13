@@ -1,6 +1,7 @@
 # RustamRuzibaev_infra
 RustamRuzibaev Infra repository
-## Homework №9 ansible-2
+## Homework №10 ansible-3
 
-- Научились создавать плейбуки разного вида: общие с limit и tags, плэйбуки с множественными plays, плэйбук из множества файлов.
-- Добавили provision через ansible в packer.
+- Работа с ролями ansible.
+- Работа с community ролями для ansible.
+- Работа с ansible-vault.
