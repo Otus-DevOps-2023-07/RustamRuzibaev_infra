@@ -4,3 +4,5 @@
 *.tfvars
 .terraform/
 *key.json*
+jdauphant.nginx
+vault.key

@@ -1,8 +1,7 @@
 # RustamRuzibaev_infra
 RustamRuzibaev Infra repository
-## Homework №6 terraform-1
+## Homework №10 ansible-3
 
-- Был установлен terraform
-- Изучена работа terraform
-- С помощью terraform была создана виртуальная машина в облаке
-- Написаны конфигурационные файлы для создания виртуальной машины в облаке с помощью terraform
+- Работа с ролями ansible.
+- Работа с community ролями для ansible.
+- Работа с ansible-vault.
